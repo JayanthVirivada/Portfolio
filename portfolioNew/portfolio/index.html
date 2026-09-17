@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jayanth Kumar Virivada — Cloud, Security &amp; Research</title>
+<meta name="description" content="Portfolio of Jayanth Kumar Virivada — cloud infrastructure, cybersecurity research, and applied engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav__mark">JKV</a>
+  <nav class="nav__links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="https://github.com/JayanthVirivada" target="_blank" rel="noopener" class="nav__icon" aria-label="GitHub profile">
+    <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+    </svg>
+  </a>
+  <a href="#contact" class="nav__cta">Get in touch</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__content">
+      <p class="hero__kicker">Toronto, ON &nbsp;·&nbsp; Open to relocation &amp; remote</p>
+      <h1 class="hero__title">
+        Jayanth Kumar Virivada builds and breaks things —
+        <span class="hero__title-accent">cloud infrastructure, security threat models, applied research.</span>
+      </h1>
+      <p class="hero__lede">
+        MPS in Cloud Computing from Northeastern University, with hands-on work spanning AWS/Azure/GCP deployments,
+        a nine-person threat-modeling research team, and a decade-adjacent grounding in zero-failure operational
+        engineering. Comfortable moving between infrastructure, risk analysis, and full-stack delivery.
+      </p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Start a conversation</a>
+        <a href="#experience" class="btn btn--ghost">See the work</a>
+      </div>
+    </div>
+
+    <div class="hero__panel" role="img" aria-label="Status summary of professional focus areas">
+      <div class="panel__head">
+        <span class="panel__dot"></span>
+        <span class="panel__label">focus.status</span>
+      </div>
+      <ul class="panel__list">
+        <li>
+          <span class="panel__key">cloud_platforms</span>
+          <span class="panel__val">AWS · Azure · GCP</span>
+        </li>
+        <li>
+          <span class="panel__key">threat_vectors_classified</span>
+          <span class="panel__val" data-count="48">0</span>
+        </li>
+        <li>
+          <span class="panel__key">research_team_led</span>
+          <span class="panel__val" data-count="9">0</span>
+          <span class="panel__unit">members</span>
+        </li>
+        <li>
+          <span class="panel__key">frameworks_applied</span>
+          <span class="panel__val">NIST CSF 2.0 · MITRE ATLAS · CVSS 3.1</span>
+        </li>
+        <li>
+          <span class="panel__key">deployment_path</span>
+          <span class="panel__val">local → live cloud, end to end</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__col-label">
+      <span>01</span>
+      <p>About</p>
+    </div>
+    <div class="about__col-body">
+      <p>
+        I graduated from Northeastern University Toronto's Master of Professional Studies program in Cloud
+        Computing Application &amp; Management (GPA 3.6/4.0), where coursework in cloud architecture, information
+        security, and database management met a capstone that put me in charge of a nine-member research team.
+      </p>
+      <p>
+        That team spent the term investigating infrastructure- and protocol-level risk across three emerging
+        enterprise AI protocols — MCP, A2A, and OpenClaw — for a sponsor, COHUMAIN Labs. We classified 48 threat
+        vectors against CVSS 3.1 and MITRE ATLAS v5.6, benchmarked findings against known critical-severity CVEs,
+        and shipped a NIST CSF 2.0-aligned mitigation playbook mapped across Finance, Healthcare, and SaaS.
+      </p>
+      <p>
+        Before Canada, I worked as an S&amp;T Engineer on live, safety-critical railway signalling and
+        telecommunications infrastructure in India — a zero-failure-tolerance environment that shaped how I
+        approach change control, validation, and documentation today. I carried that discipline straight into
+        cloud and security work: verify before you deploy, document what you touched, and never skip the
+        maintenance window.
+      </p>
+      <p>
+        Outside formal roles, I build small end-to-end systems to keep my hands on the tools — a job-posting
+        aggregator, a full-stack library system deployed to production, a CRUD cookbook app — because reading
+        about deployment and actually shipping something are different skills.
+      </p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="section__heading">
+      <span class="section__index">02</span>
+      <h2>Experience</h2>
+    </div>
+
+    <div class="timeline">
+
+      <article class="timeline__item">
+        <div class="timeline__date">
+          <span>Apr 2026 — Jun 2026</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Cybersecurity Research Analyst</h3>
+          <p class="timeline__org">COHUMAIN Labs · Sponsored University Capstone · Toronto, ON</p>
+          <ul>
+            <li>Led a nine-member sponsored research team investigating infrastructure- and protocol-level risk across three emerging enterprise AI protocols (MCP, A2A, OpenClaw).</li>
+            <li>Classified 48 threat vectors by severity using CVSS 3.1 and MITRE ATLAS v5.6, benchmarking findings against known critical-severity vulnerabilities (e.g., CVE-2025-6514, CVSS 9.6) to calibrate risk ratings.</li>
+            <li>Built a NIST CSF 2.0-aligned mitigation playbook with regulatory mapping across Finance, Healthcare, and SaaS environments.</li>
+            <li>Produced and presented a 22-slide executive findings deck to project stakeholders.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline__item">
+        <div class="timeline__date">
+          <span>Dec 2023 — Dec 2024</span>
+          <span class="timeline__duration">1 yr 1 mo</span>
+        </div>
+        <div class="timeline__body">
+          <h3>S&amp;T Engineer</h3>
+          <p class="timeline__org">Texmaco Rail &amp; Engineering Limited · Contract, Part-time · Bengaluru, India</p>
+          <ul>
+            <li>Performed root-cause analysis and fault resolution on live, safety-critical signalling and telecommunications infrastructure — structured troubleshooting under strict operational constraints, directly transferable to production incident response in IT/cloud environments.</li>
+            <li>Verified system configurations and interlocking logic against approved technical specifications prior to commissioning, reducing the risk of post-deployment failures — the equivalent of pre-release validation and change testing.</li>
+            <li>Coordinated with cross-functional technical teams, vendors, and railway authority engineers to execute changes to live operational systems within scheduled maintenance windows without service disruption — analogous to change management in high-availability environments.</li>
+            <li>Produced structured technical documentation, including test certificates and commissioning reports, to support system reliability and auditability.</li>
+            <li>Operated within a zero-failure-tolerance environment, reinforcing strong discipline around change control, compliance, and risk mitigation.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section__heading">
+      <span class="section__index">03</span>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project project--featured">
+        <div class="project__meta">
+          <span class="project__tag">Python</span>
+        </div>
+        <h3>Job Posting Aggregator</h3>
+        <p>
+          A pipeline that pulls listings from Indeed RSS, Greenhouse, and Lever APIs, then ranks and aggregates
+          them into one view — automating a job search task that used to mean checking a dozen tabs by hand.
+        </p>
+        <ul class="project__stack">
+          <li>Python</li>
+          <li>REST APIs</li>
+          <li>RSS parsing</li>
+          <li>Ranking logic</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <div class="project__meta">
+          <span class="project__tag">Node.js</span>
+        </div>
+        <h3>Library Book Borrowing System</h3>
+        <p>
+          Full-stack application taken from local development to a live deployment on Render — the complete
+          path, not just the parts that are easy to demo.
+        </p>
+        <ul class="project__stack">
+          <li>Node.js</li>
+          <li>sql.js</li>
+          <li>Render</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <div class="project__meta">
+          <span class="project__tag">.NET</span>
+        </div>
+        <h3>Cookbook App</h3>
+        <p>
+          A CRUD web application built on the MVC design pattern — recipes as the working example for clean
+          create/read/update/delete flows.
+        </p>
+        <ul class="project__stack">
+          <li>ASP.NET Core MVC</li>
+          <li>C#</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section__heading">
+      <span class="section__index">04</span>
+      <h2>Skills</h2>
+    </div>
+
+    <div class="skills__grid">
+      <div class="skills__group">
+        <h3>Cloud Platforms</h3>
+        <p class="skills__group-desc">Core compute, storage, and networking services</p>
+        <div class="chips">
+          <span>AWS</span><span>Microsoft Azure</span><span>GCP</span>
+        </div>
+      </div>
+
+      <div class="skills__group">
+        <h3>Infrastructure &amp; Containers</h3>
+        <p class="skills__group-desc">Building and running the environments underneath an app</p>
+        <div class="chips">
+          <span>Docker</span><span>Infrastructure-as-Code fundamentals</span><span>Linux / CLI</span><span>Windows Server &amp; Active Directory basics</span>
+        </div>
+      </div>
+
+      <div class="skills__group">
+        <h3>Scripting &amp; Automation</h3>
+        <p class="skills__group-desc">Getting repetitive work out of the way</p>
+        <div class="chips">
+          <span>Python</span><span>Bash</span><span>Git / GitHub</span><span>REST APIs</span><span>SQL</span>
+        </div>
+      </div>
+
+      <div class="skills__group">
+        <h3>Reliability &amp; Risk Frameworks</h3>
+        <p class="skills__group-desc">How I think about what can go wrong, and how badly</p>
+        <div class="chips">
+          <span>NIST CSF 2.0</span><span>MITRE ATLAS</span><span>OWASP</span><span>CVSS 3.1 triage &amp; classification</span>
+        </div>
+      </div>
+
+      <div class="skills__group">
+        <h3>Web Development</h3>
+        <p class="skills__group-desc">Shipping the thing users actually touch</p>
+        <div class="chips">
+          <span>Node.js</span><span>ASP.NET Core MVC</span><span>Full-stack deployment</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTS -->
+  <section class="education" id="education">
+    <div class="section__heading">
+      <span class="section__index">05</span>
+      <h2>Education &amp; Certifications</h2>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-col">
+        <h3>Education</h3>
+
+        <div class="edu-item">
+          <p class="edu-item__degree">Master of Professional Studies — Cloud Computing Application &amp; Management</p>
+          <p class="edu-item__school">Northeastern University Toronto</p>
+          <p class="edu-item__meta">Sep 2024 – Jun 2026 · GPA 3.6/4.0</p>
+          <p class="edu-item__note">Capstone sponsored by COHUMAIN Labs. Relevant coursework: Cloud Architecture (AWS/Azure/GCP), Information Security, Database Management, Software Development.</p>
+        </div>
+
+        <div class="edu-item">
+          <p class="edu-item__degree">Bachelor of Technology — Electronics &amp; Communication Engineering</p>
+          <p class="edu-item__school">JNTUH, India</p>
+          <p class="edu-item__meta">Graduated 2023</p>
+        </div>
+      </div>
+
+      <div class="edu-col">
+        <h3>Certifications</h3>
+        <ul class="cert-list">
+          <li>
+            <span class="cert-list__name">Docker Foundations Professional Certificate</span>
+            <span class="cert-list__date">May 2025</span>
+          </li>
+          <li>
+            <span class="cert-list__name">Cloud Computing: Core Concepts — NASBA</span>
+            <span class="cert-list__date">Apr 2025</span>
+          </li>
+          <li>
+            <span class="cert-list__name">Google Ads Search Certification</span>
+            <span class="cert-list__date">Apr 2026</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <h2>Let's talk about cloud, security, or research.</h2>
+      <p>
+        I'm eligible to work in Canada without sponsorship and open to cloud engineering, cybersecurity
+        research, or research analyst roles. If your team needs someone who can move between infrastructure
+        and risk analysis, I'd like to hear about it.
+      </p>
+      <div class="contact__links">
+        <a href="mailto:jayanthkumarvirivada@gmail.com" class="contact__link">
+          <span class="contact__link-label">Email</span>
+          <span class="contact__link-value">jayanthkumarvirivada@gmail.com</span>
+        </a>
+        <a href="tel:+14377753371" class="contact__link">
+          <span class="contact__link-label">Phone</span>
+          <span class="contact__link-value">437-775-3371</span>
+        </a>
+        <a href="https://www.linkedin.com/in/jayanth-kumar-virivada-6813b134b/" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__link-label">LinkedIn</span>
+          <span class="contact__link-value">/in/jayanth-kumar-virivada</span>
+        </a>
+        <a href="https://github.com/JayanthVirivada" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__link-label">GitHub</span>
+          <span class="contact__link-value">/JayanthVirivada</span>
+        </a>
+        <span class="contact__link contact__link--static">
+          <span class="contact__link-label">Based in</span>
+          <span class="contact__link-value">Toronto, ON</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Jayanth Kumar Virivada &nbsp;·&nbsp; Built by hand, hosted from a folder that fits in one screen.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
